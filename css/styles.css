@@ -1,6 +1,9 @@
 h1 {
-  color: red;
+  color: brown;
   font-weight: 200;
+  font-style: bold;
+  text-align: center;
+  font-size: 50px;
 }
 
 h2 {
@@ -14,22 +17,45 @@ p {
 .giraffe {
   border-style: solid;
   padding: 10px;
-  border-color: blue;
-  margin: 20px;
-  float: right;
+  border-color: black;
+  margin: 3px;
+  /* float: right; */
+  width: 719px;
+
 }
 .cats {
   border-style: solid;
   padding: 10px;
-  border-color: blue;
-  margin: 20px;
-  float: right;
+  border-color: black;
+  margin: 3px;
+  /* float: right; */
+  width: 719px;
 }
 .dogs {
   border-style: solid;
   padding: 10px;
-  border-color: blue;
-  margin: 20px;
+  border-color: black;
+  margin: 3px;
+  /* float: right; */
+  width: 719px;
 
+}
+.pics {
+  float: right;
+  max-width: 300px;
+  margin-top: -1006px;
+  border-style: solid;
+  border-color: black;
 
+}
+
+.giraffe h2{
+  color: brown;
+
+}
+.dogs h2{
+  color: brown;
+}
+.cats h2{
+  color: brown;
 }
